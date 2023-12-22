@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ara.css">
+    <title>Bookstore</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bookstore</h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Услуги</a>
+                        <div class="dropdown-content">
+                            <a href="#">Заказать</a>
+                            <a href="#">Добавить свою книгу</a>
+                            <a href="#">Сотруднечество</a>
+                        </div>
+                    </li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Каталог всех книг</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>Добро пожаловать в Bookstore</h2>
+                <p>Здесь вы найдёте разные интересные книги</p>
+            </div>
+        </section>
+
+        <section id="catalog">
+            <div class="container" id="catalog-container">
+                <!-- Book catalog content will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section id="cart">
+            <div class="container">
+                <h2>Ваша карзина</h2>
+                <ul id="cart-items">
+                    <!-- Cart items will be displayed here -->
+                </ul>
+                <p id="total">Общая цена: $0.00</p>
+                <button id="checkout-btn">Заказать</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Bookstore. Собрания лучших книг </p>
+        </div>
+    </footer>
+
+    <script src="ara.js"></script>
+</body>
+</html>
